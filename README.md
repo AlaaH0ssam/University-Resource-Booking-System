@@ -28,7 +28,7 @@ University Resource Booking System/
 │   └── index.ts           # Entry point / Simulation script
 ├── tsconfig.json          # TypeScript compiler configurations
 └── README.md              # Project documentation
-
+```
 ## 💻 Tech Stack & Configurations
 
 * **Language:** TypeScript (Strict Mode Enabled `strict: true`)
