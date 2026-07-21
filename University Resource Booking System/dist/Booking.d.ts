@@ -11,6 +11,6 @@ export interface Booking {
     status: BookingStatus;
     createdAt: Date;
 }
-export type NewBookingInput = Omit<Booking, 'bookingId' | 'createdAt'>;
+export type NewBookingInput = Omit<Booking, 'bookingId' | 'createdAt' | 'status'>;
 export type UpdateBookingInput = Partial<Booking>;
 //# sourceMappingURL=Booking.d.ts.map

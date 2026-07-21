@@ -10,6 +10,6 @@ export interface Booking{
     createdAt :Date;
 }
 //omit system generated fields
-export type NewBookingInput =Omit<Booking, 'bookingId'|'createdAt'>
+export type NewBookingInput =Omit<Booking, 'bookingId'|'createdAt'|'status'>;
 //all data to be optional
-export type UpdateBookingInput= Partial<Booking>
+export type UpdateBookingInput= Partial<Booking>;
