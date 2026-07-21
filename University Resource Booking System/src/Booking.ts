@@ -9,3 +9,5 @@ interface Booking{
     status :BookingStatus;
     createdAt :Date;
 }
+type NewBookingInput =Omit<Booking, 'bookingId'|'createdAt'|'status'>
+type UpdateBookingInput= Partial<Booking>

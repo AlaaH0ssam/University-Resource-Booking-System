@@ -6,4 +6,4 @@ var ResourceType;
     ResourceType["LECTURE_HALL"] = "LECTURE_HALL";
     ResourceType["PROJECTOR"] = "PROJECTOR";
 })(ResourceType || (ResourceType = {}));
-//# sourceMappingURL=resource.js.map
+//# sourceMappingURL=Resource.js.map
