@@ -1,1 +1,1 @@
-{"version":3,"file":"Booking.js","sourceRoot":"","sources":["../src/Booking.ts"],"names":[],"mappings":";;AAAA,IAAK,aAC2C;AADhD,WAAK,aAAa;IAAG,oCAAiB,CAAA;IACjC,sCAAmB,CAAA;IAAE,wCAAqB,CAAA;AAAA,CAAC,EAD3C,aAAa,KAAb,aAAa,QAC8B"}
+{"version":3,"file":"Booking.js","sourceRoot":"","sources":["../src/Booking.ts"],"names":[],"mappings":";;;AAAC,IAAY,aACmC;AAD/C,WAAY,aAAa;IAAG,oCAAiB,CAAA;IACzC,sCAAmB,CAAA;IAAE,wCAAqB,CAAA;AAAA,CAAC,EADnC,aAAa,6BAAb,aAAa,QACsB"}

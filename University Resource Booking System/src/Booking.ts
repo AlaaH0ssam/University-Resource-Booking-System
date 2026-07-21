@@ -1,7 +1,7 @@
-enum BookingStatus { PENDING="PENDING",
+ export enum BookingStatus { PENDING="PENDING",
      APPROVED="APPROVED", CANCELLED="CANCELLED"}
 
-interface Booking{
+export interface Booking{
     bookingId :number;
     resourceId :number;
     userEmail :string;
@@ -9,5 +9,7 @@ interface Booking{
     status :BookingStatus;
     createdAt :Date;
 }
-type NewBookingInput =Omit<Booking, 'bookingId'|'createdAt'|'status'>
-type UpdateBookingInput= Partial<Booking>
+//omit system generated fields
+export type NewBookingInput =Omit<Booking, 'bookingId'|'createdAt'>
+//all data to be optional
+export type UpdateBookingInput= Partial<Booking>

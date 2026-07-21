@@ -1,4 +1,4 @@
-class EntityMananger <Manager>{
+export class EntityMananger <Manager>{
     private data: Manager[] = [];
      add(item:Manager):void{
         this.data.push(item);

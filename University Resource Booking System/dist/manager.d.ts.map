@@ -1,1 +1,1 @@
-{"version":3,"file":"manager.d.ts","sourceRoot":"","sources":["../src/manager.ts"],"names":[],"mappings":""}
+{"version":3,"file":"manager.d.ts","sourceRoot":"","sources":["../src/manager.ts"],"names":[],"mappings":"AAAA,qBAAa,cAAc,CAAE,OAAO;IAChC,OAAO,CAAC,IAAI,CAAiB;IAC5B,GAAG,CAAC,IAAI,EAAC,OAAO,GAAE,IAAI;IAGvB,MAAM,IAAI,OAAO,EAAE;IAInB,OAAO,CAAE,KAAK,EAAE,MAAM,OAAO,EAAG,OAAO,EAAC,GAAG,GAAE,OAAO,GAAC,SAAS;CAEjE"}
